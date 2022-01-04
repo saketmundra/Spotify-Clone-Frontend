@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <div class="textbest"><h1>Best Of 2021...</h1></div>
+            <div class="songitemcont">
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="1" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="2" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="3" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="4" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="5" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Waqt ki Baatein</span>
+                    <span class="songlistplay"><span class="timestamp"> 4.75   <i id="6" class="far fa-play-circle"></i></span></span>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="secondflex">
+            <div class="icons">
+                <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i>
+            </div>
+            <div class="songinfo">
+                <span id="mastersongname">Waqt Ki Baatein</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/99b2ed4cb6.js" crossorigin="anonymous"></script>
+</body>
+</html>

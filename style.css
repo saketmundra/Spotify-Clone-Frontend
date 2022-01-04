@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu&display=swap');
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 5px;
+}
+
+.container{
+    min-height: 60vh;
+    /* vh means percentage of screen occupied */
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    margin: 10px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("spotifybg.png");
+}
+
+.bottom{
+    position: sticky;
+    /* screen pe hamesha rahega  */
+    bottom: 0;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.icons{
+    margin-bottom: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+}
+
+.songItem img{
+    height: 45px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songitemcont{
+    margin-top: 74px;
+}
+.textbest{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.songinfo img{
+    height: 50px;
+    width: 120px;
+}
+.secondflex{
+    height: 30px;
+    display: flex;
+    background-color: black;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.songtext{
+    font-size: 30px;
+}
